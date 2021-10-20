@@ -1,0 +1,569 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Rockness;
+    src: url(fonts/Rockness.ttf);
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(fonts/fuente1.ttf);
+}
+
+@font-face {
+    font-family: StatesvilleDemoRegular;
+    src: url(fonts/StatesvilleDemoRegular.ttf);
+}
+
+.contenedor1 {
+    background: #FFFFFF;
+    width: 600px;
+    height: 110px;
+    margin: 2em auto;
+    border: 6px solid #2B2A05;
+    border-radius: 2em;
+    display: block;
+    top: 60px;
+    justify-content: center;
+}
+
+.titulo1 {
+    font-family: Rockness;
+    font-size: 6em;
+    text-align: center;
+    position: relative;
+    position: absolute;
+    top: 25px;
+    left: 380px;
+    color: #2B2A05;
+}
+
+.titulo2 {
+    font-family: BebasNeue;
+    font-size: 2.8em;
+    position: relative;
+    position: absolute;
+    top: 160px;
+    left: 670px;
+}
+
+.contenedor1img img {
+    width: 350px;
+    top: 120px;
+    left: 320px;
+    display: block;
+    margin: auto;
+    position: relative;
+    position: absolute;
+}
+
+.contenerodr2 {
+    left: 364px;
+    display: block;
+    position: relative;
+    position: absolute;
+    top: 240px;
+}
+
+.contenerodr2 h2 {
+    font-family: fuente1;
+    font-size: 5em;
+}
+
+.iconoCabania img {
+    width: 200px;
+    position: relative;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.vegetacion1png img {
+    width: 260px;
+    position: relative;
+    position: absolute;
+    left: 960px;
+    top: -6px;
+}
+
+.subtitulosCategoria {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    color: #2B2A05;
+    top: 30px;
+    left: 60px;
+    font-size: 2em;
+}
+
+.tablaCategorias {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    top: 340px;
+    left: 20px;
+    font-size: 1.4em;
+}
+
+.inputCategorias1 {
+    top: 80px;
+    left: 100px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputCategorias2 {
+    top: 80px;
+    left: 280px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.botonConsultarCategoria {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: 80px;
+    left: 470px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonConsultarCategoria:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.botonGuardarCategoria {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: 80px;
+    left: 650px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonGuardarCategoria:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.tabalaCabanias {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    top: 460px;
+    left: 20px;
+    font-size: 1.4em;
+}
+
+.subtitulosCabanias {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    color: #2B2A05;
+    top: 30px;
+    left: 60px;
+    font-size: 2em;
+}
+
+.inputCabanias1 {
+    top: 80px;
+    left: 100px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputCabanias2 {
+    top: 80px;
+    left: 280px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputCabanias3 {
+    top: 80px;
+    left: 460px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputCabanias4 {
+    top: 80px;
+    left: 640px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.botonConsultarCabanias {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: 80px;
+    left: 830px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonConsultarCabanias:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.botonGuardarCabanias {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: 80px;
+    left: 1010px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonGuardarCabanias:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.tabalaClientes {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    top: 660px;
+    left: 20px;
+    font-size: 1.4em;
+}
+
+.subtitulosClientes {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    color: #2B2A05;
+    top: -60px;
+    left: 60px;
+    font-size: 2em;
+}
+
+.inputClientes1 {
+    top: -10px;
+    left: 100px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputClientes2 {
+    top: -10px;
+    left: 280px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputClientes3 {
+    top: -10px;
+    left: 460px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputClientes4 {
+    top: -10px;
+    left: 640px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.botonConsultarClientes {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: -10px;
+    left: 830px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonConsultarClientes:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.botonGuardarClientes {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: -10px;
+    left: 1010px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonGuardarClientes:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.tabalaMensajes {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    top: 770px;
+    left: 20px;
+    font-size: 1.4em;
+}
+
+.subtitulosMensajes {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    color: #2B2A05;
+    top: -60px;
+    left: 60px;
+    font-size: 2em;
+}
+
+.inputMensajes1 {
+    top: -10px;
+    left: 100px;
+    height: 160px;
+    width: 707px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.botonConsultarMensajes {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: -10px;
+    left: 830px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonConsultarMensajes:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.botonGuardarMensajes {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: -10px;
+    left: 1010px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonGuardarMensajes:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.tabalaReservaciones {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    top: 1010px;
+    left: 20px;
+    font-size: 1.4em;
+}
+
+.subtitulosReservaciones {
+    font-family: BebasNeue;
+    position: relative;
+    position: absolute;
+    color: #2B2A05;
+    top: -60px;
+    left: 60px;
+    font-size: 2em;
+}
+
+.inputReservaciones1 {
+    top: -10px;
+    left: 100px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputReservaciones2 {
+    top: -10px;
+    left: 280px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputReservaciones3 {
+    top: -10px;
+    left: 460px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.inputReservaciones4 {
+    top: -10px;
+    left: 640px;
+    height: 26px;
+    font-size: .6em;
+    position: relative;
+    position: absolute;
+}
+
+.botonConsultarReservaciones {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: -10px;
+    left: 830px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonConsultarReservaciones:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.botonGuardarReservaciones {
+    font-family: BebasNeue;
+    font-size: .8em;
+    top: -10px;
+    left: 1010px;
+    height: 30px;
+    width: 170px;
+    position: relative;
+    position: absolute;
+    border-radius: .7em;
+    border: none;
+    background-color: #4C3711;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: color 1.2s;
+}
+
+.botonGuardarReservaciones:hover {
+    background-color: #A8A838;
+    color: #000000;
+    transition: color 1s;
+}
+
+.espacios {
+    background: #FFFFFF;
+    width: 600px;
+    height: 60px;
+    margin: 2em auto;
+    border-radius: 2em;
+    display: block;
+    top: 1000px;
+    justify-content: center;
+    position: relative;
+    position: absolute;
+}

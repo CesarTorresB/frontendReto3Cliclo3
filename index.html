@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Alquiler de Cabañas</title>
+</head>
+
+<body>
+    <div class="contenedor1">
+        <h1 class="titulo1">Bienvenidos</h1>
+    </div>
+
+    <div class="iconoCabania">
+        <img src="img/iconos cabaña.png">
+    </div>
+    <div class="contenedor1img">
+        <img src="img/vegetacion.png">
+    </div>
+    <div>
+        <h1 class="titulo2 ">Renta de CABAÑAS</h1>
+    </div>
+
+    <div class="vegetacion1png">
+        <img src="img/vegetacion4.png">
+    </div>
+
+    <div class="contenerodr2">
+        <h2>¿Que deseas consultar?</h2>
+    </div>
+
+    <div class="tablaCategorias">
+        <h1 class="subtitulosCategoria"> Categorias</h1>
+        <div id="resultado1"></div>
+        <input type="text " id="CategoryName " placeholder="Name " class="inputCategorias1">
+        <input type="text " id="CategoryDescription " placeholder="Description " class="inputCategorias2">
+        <button onclick="traerInformacionCategorias() " class="botonConsultarCategoria"> Consultar Categorias</button>
+        <button onclick="guardarInformacionCategorias() " class="botonGuardarCategoria">Guardar Categorias</button>
+    </div>
+
+    <div class="tabalaCabanias">
+        <h1 class="subtitulosCabanias"> Cabañas</h1>
+        <div id="resultado2 "></div>
+        <div>
+            <input type="text " id="CabinName " placeholder="Name " class="inputCabanias1">
+            <input type="text " id="CabinBrand " placeholder="Brand " class="inputCabanias2">
+            <input type="number " id="CabinRooms " placeholder="Rooms " class="inputCabanias3">
+            <input type="text " id="CabinDescription " placeholder="Description " class="inputCabanias4">
+            <button onclick="traerInformacionCabins() " class="botonConsultarCabanias"> Consultar Cabañas</button>
+            <button onclick="guardarInformacionCabins() " class="botonGuardarCabanias">Guardar Cabins</button>
+        </div>
+    </div>
+
+    <div class="tabalaClientes">
+        <h1 class="subtitulosClientes"> Clientes</h1>
+        <div id="resultado3 "></div>
+        <div>
+            <input type="text " id="ClientEmail " placeholder="E-mail " class="inputClientes1">
+            <input type="text " id="ClientPassword " placeholder="Password " class="inputClientes2">
+            <input type="text " id="ClientName " placeholder="Name " class="inputClientes3">
+            <input type="number " id="ClientAge " placeholder="Age " class="inputClientes4">
+            <button onclick="traerInformacionClientes() " class="botonConsultarClientes"> Consultar Clientes</button>
+            <button onclick="guardarInformacionClientes() " class="botonGuardarClientes"> Guardar Clientes</button>
+        </div>
+    </div>
+
+    <div class="tabalaMensajes">
+        <h1 class="subtitulosMensajes"> Mensajes</h1>
+        <div id=" resultado4 "></div>
+        <div>
+            <input type="text " id="MessageText " placeholder="Message " class="inputMensajes1">
+        </div>
+        <button onclick="traerInformacionMensajes() " class="botonConsultarMensajes"> Consultar Mensajes</button>
+        <button onclick="guardarInformacionMensajes() " class="botonGuardarMensajes">Guardar Mensaje</button>
+    </div>
+
+    <div class="tabalaReservaciones">
+        <h1 class="subtitulosReservaciones"> Reservaciones</h1>
+        <div id="resultado5 "></div>
+        <div>
+            <input type="number  " id="idReservationCabin" " placeholder="Id Reservation " class="inputReservaciones1 ">
+            <input type="date " id="ReservationStartDate " placeholder="Start Date " class="inputReservaciones2 ">
+            <input type="date " id="ReservationDevolution " placeholder="Devolution Date " class="inputReservaciones3 ">
+            <input type="text " id="ReservationStatus " placeholder="Status " class="inputReservaciones4 ">
+        </div>
+        <button onclick="traerInformacionReservaciones() " class="botonConsultarReservaciones "> Consultar Reservaciones</button>
+        <button onclick="guardarInformacionReservaciones() " class="botonGuardarReservaciones ">Guardar Reservaciones</button>
+    </div>
+    <div class="espacios "></div>
+</body>
+
+</html>
